@@ -1,0 +1,47 @@
+Sueldo = ["Gerente", "Cadete"]
+
+Faltas = [0]
+
+BonoPorcentaje = [Sueldo * 0.10]
+
+BonoPorPresent = [0]
+
+def DeterminarSueldo ():
+    
+    if Sueldo == "Gerente":
+        
+        Sueldo = [15000]
+    
+    else
+        
+        Sueldo = [20000]
+        
+        
+        
+    
+    if Faltas = 0 :
+        
+        BonoPorPresent = [2000]
+        
+        BonoPorPresent + 100
+        
+    elif Faltas = 1 :
+        
+        BonoPorPresent = [1000]
+        
+    else
+        
+        BonoPorPresent = 0
+        
+    
+    Sueldo = Sueldo + BonoPorPresent + BonoPorcentaje
+    
+    
+    if Sueldo >= [18000]:
+        
+        Sueldo + 300
+    
+    else
+        
+        Sueldo + 500
+
